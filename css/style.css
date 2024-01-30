@@ -31,6 +31,26 @@ a:hover {
     position: relative;
 }
 
+.navbar .navbar-brand {
+    position: relative;
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color:rgba(243, 136, 134, 0.89);
+}
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar-toggler:focus {
+    color:#000;
+    box-shadow: 0 0 0 2px;
+}
+
+
 .navbar ul li {
     position: relative;
     margin-left: 2.5rem;
@@ -47,4 +67,76 @@ a:hover {
     letter-spacing: 1.6px;
     text-transform: uppercase;
     color:rgba(243, 136, 134, 0.89);
+}
+
+/* banner content */
+.banner-section {
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin:auto;
+}
+
+.banner-section .banner-title {
+    position: relative;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    color:rgba(243, 136, 134, 0.89)
+}
+
+.banner-section .banner-desc1 {
+    position: relative;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 1rem;
+    color:rgba(243, 136, 134, 0.89)
+}
+
+.banner-section .banner-desc2 {
+    position: relative;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    color:rgba(243, 136, 134, 0.89)
+}
+.banner-section .banner-btn {
+    position: relative;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(243, 136, 134, 0.89);
+}
+
+/* Footer */
+
+.footer {
+    position: relative;
+    padding-top: 30px;
+    background: #ffd5d5;
+}
+
+.footer .social-media .footer-list {
+    position: relative;
+    margin: 0 0 10px 0;
+    display: inline-block;
+}
+
+.footer .social-media .footer-list li {
+    float: left;
+    margin-right: 10px;
+}
+
+.footer .social-media .footer-list li a {
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.5rem;
 }
