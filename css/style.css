@@ -140,3 +140,119 @@ a:hover {
     font-weight: 500;
     letter-spacing: 0.5rem;
 }
+
+/* Foster register */
+.foster-register-section .register-title {
+    position: relative;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    color:rgba(243, 136, 134, 0.89)
+}
+
+.foster-register-section .register-desc1 {
+    position: relative;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 1rem;
+    color:rgba(243, 136, 134, 0.89)
+}
+.foster-register-section .register-desc2 {
+    position: relative;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 1rem;
+    color:rgba(243, 136, 134, 0.89)
+}
+.foster-register-section .register-desc2 {
+    position: relative;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: rgba(243, 136, 134, 0.89);
+    
+}
+label, input {
+    display: block;
+}
+input {
+    font-size: 18px !important;
+}
+
+/* Foster Lookup */
+.foster-lookup-section .lookup-title {
+    position: relative;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    color:rgba(243, 136, 134, 0.89)
+}
+
+.foster-lookup-section .lookup-desc1 {
+    position: relative;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 1rem;
+    color:rgba(243, 136, 134, 0.89)
+}
+
+/* Animals in need */
+.animal-section .animal-title {
+    position: relative;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    color:rgba(243, 136, 134, 0.89)
+}
+
+.animal-section .animal-desc1 {
+    position: relative;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 1rem;
+    color:rgba(243, 136, 134, 0.89)
+}
+
+/* Contact Us */
+.contact-section .contact-title {
+    position: relative;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    color:rgba(243, 136, 134, 0.89)
+}
+
+.contact-section .contact-desc1 {
+    position: relative;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 1rem;
+    color:rgba(243, 136, 134, 0.89)
+}
