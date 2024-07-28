@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signup Page</title>
+    <title>waitingList</title>
     <link rel="stylesheet" href="SignUp.css">
 </head>
 <body>
     <div class="signup-container">
-        <form id="signupForm" action="index.html" class="signup-form">
-            <h2>Join Our Waiting List</h2>
+        <form id="waitingListForm" action="index.html"  class="signup-form">
+            <h2>Join the Waiting List</h2>
             <div class="form-group">
                 <label for="fullName">Full Name</label>
                 <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
@@ -19,7 +19,11 @@
                 <input type="email" id="email" name="email" placeholder="Enter your email" required>
             </div>
             <button type="submit">Submit</button>
-        </form>
-    </div>
+        </form> 
+
+    <pre id="output"></pre>
+    <ul id="waitingList"></ul>
+
+    <script src="script.js"></script>
 </body>
 </html>
